@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myCollider = GetComponent<Collider2D>();
-        theLifeKeeper = FindObjectOfType<LifeKeeper>();
+        theLifeKeeper = FindFirstObjectByType<LifeKeeper>();
     }
 
     // Update is called once per frame

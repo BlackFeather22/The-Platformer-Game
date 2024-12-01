@@ -36,7 +36,7 @@ public class TimeKeeper : MonoBehaviour
     }
     private void DestroyPlayer()
     {
-        PlayerController player = FindObjectOfType<PlayerController>();
+        PlayerController player = FindFirstObjectByType<PlayerController>();
 
         if (player != null)
         {

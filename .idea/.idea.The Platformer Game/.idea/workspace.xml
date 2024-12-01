@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d84ef9-643a-4d9c-aafc-23cd7a6ef1db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Platformer Game/.idea/indexLayout.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The Platformer Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Platformer Game/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +75,7 @@
       <updated>1733069353910</updated>
       <workItem from="1733069354779" duration="757000" />
       <workItem from="1733070590716" duration="23000" />
+      <workItem from="1733070634399" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1733069415776</created>
