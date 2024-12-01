@@ -8,13 +8,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float runSpeed = 5f;
     [SerializeField] float jumpSpeed = 5f;
     Collider2D myCollider;
-    // LifeKeeper theLifeKeeper;
+    LifeKeeper theLifeKeeper;
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myCollider = GetComponent<Collider2D>();
-        // theLifeKeeper = FindObjectOfType<LifeKeeper>();
+        theLifeKeeper = FindObjectOfType<LifeKeeper>();
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // theLifeKeeper.DecreaseLives();
+        theLifeKeeper.DecreaseLives();
         Destroy(gameObject);
     }
 
